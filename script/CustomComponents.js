@@ -1,3 +1,26 @@
+function loadSpinner2 () {
+	var htmlCode = `
+	<div id = "cupcake" class = "box">
+    <span class = "letter">C</span>
+    <span class = "letter">A</span>
+    <span class = "letter">R</span>
+    <span class = "letter">G</span>
+    <span class = "letter">A</span>
+    <span class = "letter">N</span>
+    <span class = "letter">D</span>
+
+    <div class = "cupcakeCircle box">
+        <div class = "cupcakeInner box">
+            <div class = "cupcakeCore box"></div>
+            
+        </div></div>
+</div>
+	`;
+
+
+	$('#loader2').html(htmlCode);
+}
+
 
 function setPageLocationType (rootIndex) {
 

@@ -250,7 +250,7 @@ h1 {
     display: block;
     position: relative;
     left: 50%;
-    top: 50%;
+    top: 40%;
     width: 150px;
     height: 150px;
     margin: -75px 0 0 -75px;
@@ -582,4 +582,138 @@ h1 {
 }
 
 
+/*
 
+Segundo spinner
+
+*/
+
+
+/*html,body{
+  height:100%;
+  width:100%;
+  margin:0px;
+  padding:0px;
+  background-color:#FFD454;
+}*/
+#loader2{
+    margin-top: 20%;
+}
+#cupcake{
+    top: 70%;
+    flex-direction:row;
+    -webkit-flex-direction:row;
+    -ms-flex-direction:row;
+    -mos-flex-direction:row;
+    -o-flex-direction:row;
+    justify-content:center;
+    -webkit-justify-content:center;
+    -ms-justify-content:center;
+    height:100%;
+    width:100%;
+    /*background-color:#FFD454;*/
+    background-color:#222;
+    z-index: 10000;
+}
+
+.letter{
+    font-size:100px;
+    /*color:#222;*/
+    color:#fff;
+    font-family:tahoma;
+    z-index: 10000;
+}
+
+.box{
+    display: box;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    z-index: 10000;
+    
+}
+
+.cupcakeCircle, .cupcakeInner, .cupcakeCore{
+     border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    z-index: 10000;
+}
+
+.cupcake, .letter, .cupcakeCircle, .cupcakeInner, .cupcakeCore{
+    flex:none;
+    -webkit-flex:none;
+    -moz-flex:none;
+    -ms-flex:none;
+    -o-flex:none;
+    z-index: 10000;
+}
+
+.letter, .cupcakeCircle{
+    align-self:center;
+    -webkit-align-self:center;
+    -moz-align-self:center;
+    -o-align-self:center;
+    -ms-align-self:center;
+    z-index: 10000;
+}
+.cupcakeCircle{
+    align-items:center;
+    -ms-align-items:center;
+    justify-content:center;
+    -ms-justify-content:center;
+    height:100px;
+    width:100px;
+    /*background-color:#222;*/
+    background-color:#fff;
+    z-index: 10000;
+}
+
+.cupcakeInner{
+    align-self:center;
+    -ms-align-self:center;
+    justify-content:center;
+    -ms-justify-content:center;
+    height:50%;
+    width:50%;
+    /*background-color:#FFD454;*/
+    background-color:#222;
+    -webkit-animation-name:cupcakeAnimate;
+    -webkit-animation-duration:0.7s;
+    -webkit-animation-direction:alternate;
+    -webkit-animation-timing-function:ease-in-out;
+    -webkit-animation-iteration-count:infinite;
+    z-index: 10000;
+    
+}
+.cupcakeCore{
+    align-self:center;
+    -ms-align-self:center;
+    height:25%;
+    width:25%;
+    /*background-color:#222;*/
+    background-color:#fff;
+    -webkit-animation-name:coreAnimate;
+    -webkit-animation-duration:0.3s;
+    -webkit-animation-direction:alternate;
+    -webkit-animation-timing-function:ease-in-out;
+    -webkit-animation-iteration-count:infinite;
+    z-index: 10000;
+}
+
+@-webkit-keyframes cupcakeAnimate{
+        to{ height:90%; width:90%; }
+}
+@keyframes cupcakeAnimate{
+    to{ height:90%; width:90%; }
+}
+
+@-webkit-keyframes coreAnimate{
+    to{ height:90%; width:90%; }
+}
+@keyframes coreAnimate{
+    to{ height:90%; width:90%; }
+}
