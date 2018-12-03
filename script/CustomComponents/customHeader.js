@@ -65,11 +65,10 @@ function createNavbar(rootIndex) {
 
 					<li class="dropdown"><a href="${rootPathAux}pages/practicas.html">Prácticas <i class="fa fa-angle-down"></i></a>
 						<ul role="menu" class="sub-menu">
-							<!--<li><a href="${rootPathAux}pages/ejercicios/ejercicio001.html">Documentación incial</a></li>-->
-							<li><a href="${rootPathAux}pages/proximamente.html">Documentación incial</a></li>
-							<li><a href="${rootPathAux}pages/proximamente.html">Planificación tiempos/tareas</a></li>
-							<li><a href="${rootPathAux}pages/proximamente.html">MockUps y diagramas UML</a></li>
-							<li><a href="${rootPathAux}pages/proximamente.html">Documentación uso</a></li>
+							<li><a href="${rootPathAux}pages/ejercicios/ejercicio001.html">Documentación incial</a></li>
+							<li><a href="${rootPathAux}pages/ejercicios/ejercicio002.html">Planificación tiempos/tareas</a></li>
+							<li><a href="${rootPathAux}pages/ejercicios/ejercicio003.html">MockUps y diagramas UML</a></li>
+							<li><a href="${rootPathAux}pages/ejercicios/ejercicio004.html">Documentación uso</a></li>
 							<li><a href="${rootPathAux}pages/ejercicios/ejercicio005.html">Evaluación demo</a></li>
 						</ul>
 					</li>
