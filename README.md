@@ -1,2 +1,2 @@
-# RAY-Template
-plantilla html para la asignatura RAY
+# PJU-Web
+Proyectos de juegos y entornos interactivos
